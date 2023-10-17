@@ -1,0 +1,31 @@
+.container {
+  margin: 20px;
+}
+
+.button {
+  width: 80px;
+  margin-right: 10px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: 200ms ease-in;
+  text-transform: capitalize;
+}
+.button:nth-child(1):hover,
+.button:nth-child(1):focus {
+  color: green;
+  border-color: green;
+}
+.button:nth-child(2):hover,
+.button:nth-child(2):focus {
+  color: orange;
+  border-color: orange;
+}
+.button:nth-child(3):hover,
+.button:nth-child(3):focus {
+  color: red;
+  border-color: red;
+}
